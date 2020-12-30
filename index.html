@@ -1,0 +1,688 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>Mon Portfolio</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Font Awesome icons (free version)-->
+  <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+
+  <!-- Google fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+
+<!---Modals---->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+  <!-- CSS (includes Bootstrap), you can also add bootstrap by cdn like JS is added at bottom-->
+  <link href="css/styles.css" rel="stylesheet" />
+<style>
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 8px;
+  width: 320px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+</head>
+
+<body id="page-top">
+  <!-- Navbar (appears at top of your webpage)-->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <input onclick="make_me_dark()" type="checkbox" class="toggle" checked>
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">ABDELLAH MADANE</span>
+      <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="sources/my_img.png" alt="" /></span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+        class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">À propos</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Expérience</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Compétences</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projets</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Certificats</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Content-->
+
+  <div class="container-fluid p-0">
+    <!-- About-->
+    <section class="resume-section" id="about">
+      <div class="resume-section-content">
+        <h1 class="mb-0 text-center">
+          <span class="text-primary">ABDELLAH</span>
+          MADANE
+        </h1>       
+		<br>
+		  <div class="subheading mb-5 text-center">   
+          <i class="fas fa-map-marker-alt" style="font-size:20px;"></i>&nbsp;RABAT, MAROC&nbsp;&nbsp;  <i class="fas fa-phone-square" style="font-size:20px;"></i>&nbsp;+212 624 12 74 37 &nbsp;&nbsp;<i class="fas fa-envelope-open-text" style="font-size:20px;"></i>
+			  
+          <a href="mailto:abdellahmadane07@gmail.com" style="text-transform: none;">abdellahmadane07@gmail.com</a>
+		   <div class="subheading mb-5 text-center"> 	
+		  <br>
+		   
+			<a class="button" href="https://drive.google.com/file/d/17r71SaWY1VVUQH3xHBoxesPYNQpN-Yfu/view?usp=sharing" style="vertical-align:middle; color: rgb(229, 229, 229); background-color: rgb(20, 33, 61); border: 1px solid rgb(20, 33, 61);" ><span>Télécharger CV </span></a>				  
+		</div>
+        <img class="top-img " src="sources/my_website1.svg" alt="">
+        <p class="lead mb-5" style="text-transform: none;">Etudiant en troisième année de l'école des sciences de l'information et Futur ingénieur de données et de connaissances, je suis intéressé par le domaine de la data science, en particulier l'intersection entre data science et le monde du business, autrement dit comment peut-on apporter des solutions concrètes permettant de résoudre des problèmes spécifiques en faisant parler des données. 
+Au cours de ma formation et mes différentes expériences professionnelles, j’ai acquis des atouts en termes d’étude de besoins, de collecte et prétraitement des données, d’élaboration de modèles de Machine Learning et Deep Learning, ainsi que de reporting.
+J'ai pu donc développer des compétences analytiques étendues, ainsi que développer ma capacité à travailler en équipe et à collaborer avec les autres. 
+A part cela, je suis un passionné de la musique, en effet, je joue du violon depuis 6 ans environ au conservatoire de la gendarmerie royale.
+</p>
+<p class="lead mb-5" style="text-transform: none;text-align:left;">
+<B><span class="text-primary" style="display:block;text-align:center;">Mes Qualités</span></B><br>
+<B>Je suis une personne autonome.</B><br>
+Je sais comment me débrouiller tout seul
+Si j'ai affaire à une tâche que je n'ai jamais réalisée ou que j'ignore carrément, alors cela ne m’intimide pas, j’essaie de m'organiser et m'autoformer afin d'acquérir les connaissances nécessaires pour réaliser le travail demandé. 
+Par exemple, durant mon stage ingénieur, il y avait malheureusement le confinement. Du coup, stage à distance, et le contact se faisait rare, juste une fois par semaine pour suivre l’avancée du projet sur lequel je travaillais. Et comme on étudie le module de la BI jusqu’en 3ème année, j’étais alors obligé de recourir à des moyens par moi-même, que ce soit des MOOCS, des cours en ligne sur Udemy, coursera, des vidéos YouTube, des livres, etc. pour apprendre comment manipuler les outils et réaliser les différentes tâches du projet. Chose que j’ai réussi à faire en présentant un travail de qualité qui a plu à mon tuteur. 
+<br><br><B>Je suis une personne dynamique et qui cherche toujours à aller de l’avant. J’ai tendance à prendre l’initiative.</B><br>
+En effet, lors du stage à la FMEF, on avait convenu au début d’utiliser l’outil Dspace, qui est un outil dédié à la mise en place de plateforme de stockage, gestion, et diffusion du contenu digital d’une organisation quelconque. Après, j’ai eu l’occasion de discuter avec un expert dans le domaine du content management, on a parlé du projet et il m’a conseillé d’opter pour une solution du cloud, vu les différents avantages qu’elle présente. J’ai réalisé alors un benchmarking entre les différents solutions cloud présents sur le marché, et je les ai comparés avec Dspace. J’ai conclu qu’ils étaient meilleurs. J’ai présenté les résultats à la direction, et ça leur a plu puisque ça répondait non seulement au besoin de stockage, gestion et diffusion ; mais aussi à un besoin non exprimé qui était d’avoir un espace de travail collaboratif.
+<br>
+<br>
+<span class="text-primary" style="display:block;text-align:center;"><B>Mes Points d’amélioration</B></span><br>
+Dans le passé, la prise de parole en public était un énorme défi pour moi. J’avais du mal à gérer le trac quand je savais que je devais me lever et parler devant une audience de plusieurs personnes. Mais je me suis rendu compte que cela entravait ma progression en tant qu'individu et en tant que professionnel, alors j'ai décidé d'agir. Je me suis inscris dans une formation à l’institut français qui portait sur la prise de parole en public. Aussi, j’ai participé à des ateliers de théâtres, c’était vraiment une expérience très riche en termes d’apprentissage et surtout de développement personnel. Aujourd’hui, je fais parti du club great debaters de l’esi. On organise des sessions où on se rassemble dans l’amphi et on se fixe un thème, puis à tour de rôle, chacun de nous se présente devant tout le monde et parle du sujet en question.
+</p>
+
+        <div class="social-icons">
+          <a target="_blank" class="social-icon" href="https://www.linkedin.com/in/abdellah-madane/"><i class="fab fa-linkedin-in"></i></a>
+          <a target="_blank" class="social-icon" href="https://github.com/MadaneA"><i class="fab fa-github"></i></a>
+          <a target="_blank" class="social-icon" href="https://twitter.com/AbdellahMadane"><i class="fab fa-twitter"></i></a>
+          <a target="_blank" class="social-icon" href="https://www.facebook.com/abdellah.mada.33/"><i class="fab fa-facebook-f"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <hr class="m-0" />
+    <!-- Experience-->
+    <section class="resume-section" id="experience">
+      <div class="resume-section-content">
+        <h2 class="mb-4">Experiences Professionnelles</h2>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="flex-grow-1">
+            <h3 class="mb-0">Fondation Marocaine de l'Éducation Financière</h3>
+            <div class="subheading mb-3">Responsable de projet / Développeur</div>
+            <p>● Mise en place d’une plateforme pour le stockage, la gestion, et la diffusion du contenu numérique de la FMEF.
+				<br>● Traitement intellectuel des documents.
+			</p>
+			<p><b>Outils utilisés:</b> Dspace, Java, PostgreSQL, HTML5, CSS, Bootstrap 4, Javascript.</p>
+
+          </div>
+        </div>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="flex-grow-1">
+            <h3 class="mb-0">Caisse de Dépôt et de Gestion</h3>
+            <div class="subheading mb-3">Ingénieur Business Intelligence</div>
+            <p>● Implémentation d’une solution technique pour le pilotage des projets de la CDG.<br><br>
+➢ Analyse du besoin et compréhension de la problématique.<br>
+➢ Conception et implémentation de la Data Warehouse.<br>
+➢ Développement des flux (ETL) d’alimentation de la Datawarehouse.<br>
+➢ Création et Mise en place de cube OLAP.<br>
+➢ Elaboration de rapports et Tableau de Bords.<br>
+</p>
+<p><b>Outils utilisés:</b> SSIS, SSAS, Power BI, SQL Server
+2019, Visual Studio 2019.</p>
+
+          </div>
+          
+        </div>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="flex-grow-1">
+            <h3 class="mb-0">Ministère de l’Économie et des Finances</h3>
+            <div class="subheading mb-3">Développeur Full stack</div>
+            <p>● Développement d'une application Web pour la
+génération dynamique d'enquête.<br>
+● Visualisation des données collectées à travers
+des rapports générés automatiquement par
+l’application.<br>
+<p><b>Outils utilisés:</b> ASP NET MVC 5, SQL Server 2014,
+PowerDesigner, HTML5, CSS, Javascript.</p>
+</p>
+          </div>
+          
+        </div>
+        <!-- you can add more experiences as per your needs -->
+
+        <!-- <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Heading</h3>
+                            <div class="subheading mb-3">Sub Heading, details</div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">September 2008 - June 2010</span></div>
+                    </div> -->
+      </div>
+    </section>
+    <hr class="m-0" />
+    <!-- Education-->
+    <section class="resume-section" id="education">
+      <div class="resume-section-content">
+        <h2 class="mb-4">Parcours Académique</h2>
+        <img class="edu-img " src="sources/education.svg" alt="">
+        <div class="d-flex flex-column flex-md-row justify-content-between">
+          <div class="flex-grow-1">
+            <h3 class="mb-0">École des Sciences de l’Information</h3>
+            <div class="subheading mb-3">Ingénieur de Données et des Connaissances</div>
+            <p>• Data Science<br>
+• Big data<br>
+• Intelligence Artificialle<br>
+• Machine Learning<br>
+• Business intelligence<br>
+• Knowledge Management</p>
+          </div>
+          <div class="flex-shrink-0"><span class="text-primary">2018 - 2021</span></div>
+        </div>
+		
+        <div class="d-flex flex-column flex-md-row justify-content-between">
+          <div class="flex-grow-1">
+            <h3 class="mb-0">CPGE Ibn Ghazi</h3>
+            <div class="subheading mb-3">Classes Préparatoires aux Grandes écoles d’Ingénieurs -  OPTION: MPSI/MP</div>
+            <p>• Mathématiques avancées <br>• Physiques & Chimie <br>• Informatique<br>• Sciences de l'ingénieur</p>
+          </div>
+          <div class="flex-shrink-0"><span class="text-primary">2015 - 2017</span></div>
+        </div>
+		
+		<div class="d-flex flex-column flex-md-row justify-content-between">
+          <div class="flex-grow-1">
+            <h3 class="mb-0">Lycée Moulay Youssef</h3>
+            <div class="subheading mb-3">Baccalauréat scientifique - OPTION: Sciences Mathématiques B</div>
+                        <p>• Mathématiques <br>• Physiques & Chimie <br>• Sciences de l'ingénieur</p>
+          </div>
+          <div class="flex-shrink-0"><span class="text-primary">2014</span></div>
+        </div>
+		
+      </div>
+    </section>
+    <hr class="m-0" />
+    <!-- Skills-->
+    <section class="resume-section" id="skills">
+      <div class="resume-section-content">
+        <h2 class="mb-4">Compétences</h2>
+        <div class="subheading mb-3"><b>Programmation et Coding</b></div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item"><i class="fab fa-python"></i></li>
+          <li class="list-inline-item"><i class="fab fa-r-project"></i></li>
+          <li class="list-inline-item"><i class="fab fa-java"></i></li>
+        </ul>
+        <div class="subheading mb-3">Points Clés</div>
+        <ul class="fa-ul mb-0">
+          <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+ Maitrise de python et ses différents bibliothèques utilisées dans l’analyse de données et en Maching learning/ Deep learning (scikit-learn, numpy, pandas …). Voir Section Projets.
+          </li>
+          <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+Analyse d’une base de données contenant des données sur un ensemble de personnes atteintes de « Hépatite B » et de maladies cardiaques, en utilisant R.          </li>
+          <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+Programmation d’un système de gestion de clients d’une banque avec Java.          </li>
+          <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+Scrapping d'une base de données avec Python et BeautifulSoup          </li>
+        </ul>
+		<br><br>
+		<div class="subheading mb-3"><b>Développement Web</b></div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+          <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+          <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+           <li class="list-inline-item"><i class="fab fa-php"></i></li>
+          <li class="list-inline-item"><i class="fab fa-bootstrap"></i></li>
+          <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
+        </ul>
+        <div class="subheading mb-3">Points Clés</div>
+        <ul class="fa-ul mb-0">
+          <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+Développement d’une application web (front end et back end) pour la gestion de commandes de client avec Flask le Framework de développement web en Python.           </li>
+          <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+Développement d'une application web (front end et back end) pour la génération automatique de sondages en utilisant Asp.net MVC.          </li>
+          <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+Développement de ce e-portfolio avec principalement Html, Css, JavaScript, Bootstrap.     </li>
+          <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+Développement d'une application Android en utilisant Android Studio, Java, FireBase.          </li>
+        </ul>
+		
+		
+		<br><br>
+		<div class="subheading mb-3"><b>Gestion de Bases de données</b></div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item"><i class="fas fa-database"></i></li>
+
+        </ul>
+        <div class="subheading mb-3">Points Clés</div>
+        <ul class="fa-ul mb-0">
+          <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+Manipulation de différents systèmes de gestion de bases de données: Oracles 11g, SQL Server 2019, Microsoft Access.          </li>
+          <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+Maîtrise du langage SQL et de PLSQL.          </li>
+
+        </ul>
+		
+		<br><br>
+		<div class="subheading mb-3"><b>Conception & Modélisation</b></div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item"><i class="fas fa-project-diagram"></i></li>
+
+        </ul>
+        <div class="subheading mb-3">Points Clés</div>
+        <ul class="fa-ul mb-0">
+          <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+Elaboration du modèle Conceptuel et Physique des bases de données utilisées dans les différents projets de développements réalisés, en utilisant PowerDesigner.          </li>
+          <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+Etude du besoin de plusieurs problématiques en utilisant UML, que ce soit pour les projets réalisés ou autres.        </li>
+          <li>
+
+        </ul>
+		
+		<br><br>
+		<div class="subheading mb-3"><b>Management et gestion de projet</b>	</div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item"><i class="fas fa-tasks"></i></li>
+          <li class="list-inline-item"><i class="fas fa-users"></i></li>
+          <li class="list-inline-item"><i class="fas fa-assistive-listening-systems"></i></li>
+           <li class="list-inline-item"><i class="fas fa-bullseye"></i></li>
+           <li class="list-inline-item"><i class="fas fa-calendar-check"></i></li>
+           <li class="list-inline-item"><i class="fas fa-sitemap"></i></li>
+
+        </ul>
+        <div class="subheading mb-3">Points Clés</div>
+        <ul class="fa-ul mb-0">
+          <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+Projets de la FMEF réalisé en utilisant le framework Agile Scrum.          </li>
+          <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+Connaissances des différents pratiques et standards de management de projets de PMBOK.          </li>
+          <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+Certifié Scrum Master (voir section certificats).          </li>
+
+        </ul>
+		
+		<br><br>
+		<div class="subheading mb-3"><b>IA & Data Science</b></div>
+        <ul class="list-inline dev-icons">
+		
+          <li class="list-inline-item"><i class="fas fa-chart-pie"></i></li>
+          <li class="list-inline-item"><i class="fas fa-calculator"></i></li>
+          <li class="list-inline-item"><i class="fas fa-poll"></i></li>
+          <li class="list-inline-item"><i class="fab fa-kaggle"></i></li>
+          <li class="list-inline-item"><i class="fas fa-laptop-code"></i></li>
+          <li class="list-inline-item"><i class="fas fa-chart-line"></i></li>
+          <li class="list-inline-item"><i class="fas fa-chart-bar"></i></li>
+          <li class="list-inline-item"><i class="fas fa-chart-area"></i></li>
+        </ul>
+        <div class="subheading mb-3">Points Clés</div>
+        <ul class="fa-ul mb-0">
+          <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+Analyse d'une base de données de deux centrales électiques distinctes et les données météorologiques correspondantes. Le but était d'identifier les dysfonctionnements du matériel, d'optimiser la génération d'électrecité, et de prédire l'éléctrécité produite pour chaque centrale.          </li>
+          <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+Classification des émotions faciales en utilisant différents modèles de Deep Learning (CNN, Resnet50, InceptionResnetV2, Vgg13)         	          </li>
+          <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+Développement d'un chatbot intelligent en utilisant un modèle CNN de deep Learning, la libraire  NLTK pour le traitement de langage, ainsi que flask pour interroger le chatbot à travers Messenger d'une page Facebook.
+          </li>
+
+        </ul>
+		
+				<br><br>
+		<div class="subheading mb-3"><b>Compétences à améliorer</b></div>
+
+        <div class="subheading mb-3">Points Clés</div>
+        <ul class="fa-ul mb-0">
+          <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+Malgré les différents projets que j'ai effectué en Deep Learning, j'ai besoin de mener un projet sur une étude de cas réelle afin de s'assurer de l'exactitude des résultats obtenues de manière plus concrète.         </li>
+          <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+J'ai des connaissances en Big Data, notamment l'utilisation de Hadoop et Spark, mais j'ai besoin d'y mener des projets afin d'affûter ces compétences.</li>
+
+        </ul>
+		
+      </div>
+    </section>
+    <hr class="m-0" />
+    <!-- Interests-->
+    <section class="resume-section" id="projects">
+      <div class="resume-section-content">
+        <h2 class="mb-4">Projets Réalisés</h2>
+        <p>Que ce soit les projets académiques ou personnels que j'ai réalisés, cela m'a bien aidé à apprendre de nouvelles compétences et à aiguiser celles déjà acquises. Plusieurs domaines ont fait l'objets de ces projets, principalement ceux tournant autour de la Data science, notamment : Analyse de données, Visualisation des données, et la construction de modèles pour la prédiction et la classification avec du Machine Learning et Deep Learning.<br>Au-dessous, vous trouverez le résumé de quelques projets que j'ai effectués dans ce sens.  </p>
+
+        <div class="row project-cards mx-auto align-items-center">
+          <div class="col-md-4 mb-4 mx-auto">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Projet: NYCE Taxi</h5>
+                <p class="card-text">L'objectif général de ce projet était de développer un algorithme qui peut être utilisé pour analyser le schéma de fonctionnement des taxis dans une ville afin d'essayer de prédire le pourboire que l'on peut attendre par trajet.</p>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Voir en détails</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4 mx-auto">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">The Greentech challenge</h5>
+                <p class="card-text">The GreenTech challenge est un concours Dataviz lancé par le ministère français de l'environnement qui a eu lieu en 2017.</p>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#myModal2">Voir en détails</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4 mx-auto">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Projet: Data science</h5>
+                <p class="card-text"> L'objectif de ce projet est d'illustrer les concepts à l'aide de données provenant de 30 saisons du jeu télévisé Jeopardy, à travers une analyse exploratoire des données et des visualisations intéractives.</p>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#myModal3">Voir en détails</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr class="m-0" />
+    <!-- Awards-->
+    <section class="resume-section" id="awards">
+      <div class="resume-section-content">
+        <h2 class="mb-4">Certificats Obtenus</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <ul class="fa-ul mb-0">
+              <li>
+                <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                Scrum Foundation Professional Certificate(SFPC) - CertiProf.
+				<br><a tabindex="0" rel="noopener noreferrer" target="_blank" href="https://www.youracclaim.com/badges/2b463491-2626-4fd1-9bb4-b4188a8fc766?source=linked_in_profile" id="ember1627" class="pv-certifications-entity__credential-link t-14 t-bold t-black--light ember-view">          Voir la référence
+</a>
+              </li>
+              <li>
+                <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                Machine Learning - Stanford University.
+				<br><a tabindex="0" rel="noopener noreferrer" target="_blank" href="https://www.coursera.org/account/accomplishments/verify/SSFDN24S8YJS" id="ember1613" class="pv-certifications-entity__credential-link t-14 t-bold t-black--light ember-view">          Voir la référence
+</a>
+              </li>
+              <li>
+                <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                1
+                <sup>st</sup>
+                Machine Learning for Business Professionals - Google Cloud
+				<a tabindex="0" rel="noopener noreferrer" target="_blank" href="https://www.coursera.org/account/accomplishments/verify/UPRCN5XABYZT" id="ember1620" class="pv-certifications-entity__credential-link t-14 t-bold t-black--light ember-view">          Voir la référence
+</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <img class="awards-img " src="sources/certificate.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content" style="width:800px">
+        <div class="modal-body">
+          <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 text-center" style="text-align: left">
+                    <!-- <hr class="light"> -->
+                    <h2>NYCe Taxi</h2><h2>
+                    </h2><h4 style="color:white;">CONCEPT</h4>
+                    <p class="text-faded" style="font-size: small; text-align:left;" >
+                    L'objectif général de ce projet était de développer un algorithme qui peut être utilisé pour analyser le schéma de fonctionnement des taxis dans une ville afin d'essayer de prédire le pourboire que l'on peut attendre par trajet. 
+                    L'idée de ce projet était basée sur l'hypothèse que l'historique des déplacements des chauffeurs de taxi, combiné aux données démographiques sur le modèle, permettait de modéliser les habitudes en matière de pourboires des personnes à différents endroits, à différents moments et pour différents types de déplacements. En utilisant différentes techniques d'apprentissage automatique, nous voulions mettre au point un système permettant d'affecter un trajet donné à des classes spécifiques désignant les montants des pourboires.</p>
+                    <h4 style="color:white;">DONNEES</h4>
+                    <p class="text-faded" style="font-size: small; text-align:left;">
+                    L'ensemble de données a été obtenu auprès de la New York City Taxi and Limousine Commission (NYCT&amp;L).  Il couvre quatre années d'exploitation des taxis à New York et comprend 697 622 444 trajets. 
+                    Source de l'ensemble de données : http://publish.illinois.edu/dbwork/open-data/
+                    <br><br>
+                    Les données se composent de deux parties : les données sur les trajets, qui contiennent des informations sur les trajets, telles que la date et l'heure de la prise en charge, la distance et la durée du trajet, et les données sur les tarifs, qui contiennent des informations sur les prix, telles que le montant du tarif, le montant du pourboire, etc.
+                    <br><br>
+Nous avions des informations de latitude et de longitude dans nos données de voyage. Nous voulions obtenir des informations sur les caractéristiques du lieu comme l'aisance, le coût de la vie, etc. Notre plan initial était de diviser notre latitude et notre longitude en différents arrondissements. Mais comme les arrondissements s'étendent sur une grande surface, nous avons décidé de choisir des codes postaux. Nous avons trouvé des données ouvertes avec des codes postaux et la paire latitude-longitude pour le centre de ce code postal. Nous avons également gratté un site web pour obtenir les informations démographiques d'un code postal. Nous avons réuni ces ensembles de données et ajouté les attributs relatifs aux informations démographiques à notre ensemble de données fusionnées sur les tarifs des voyages.
+                   </p>
+                    <h4 style="color:white;">APPROCHE SUIVIE</h4>
+                    <p class="text-faded" style="font-size: small; text-align:left;">
+                    Comme mentionné précédemment, l'ensemble de données est constitué de données sur les voyages et les tarifs. Nos idées initiales étaient de prévoir les heures de pointe en ville et de prévoir le trafic à différents moments en fonction de la vitesse moyenne. Après une analyse et une discussion plus approfondies, nous avons conclu que ces énoncés de problèmes sont de bons projets de visualisation et nous nous sommes penchés sur des énoncés de problèmes davantage basés sur l'apprentissage machine.
+                 <br><br>
+                    Prévision du temps d'attente
+                    Notre approche suivante consistait à prévoir le temps d'attente - le temps que doit attendre un chauffeur de taxi entre deux trajets. L'ensemble de données ne contient pas explicitement les temps d'attente. Nous aurions dû déduire les temps d'attente entre les trajets à partir des temps de prise en charge et de dépose et des informations sur le nombre de passagers. Nous avons effectué ces opérations et nous avons découvert que le temps d'attente était nul à 98% dans l'ensemble de données et que le reste était d'environ une minute en moyenne. Comme les données étaient très faussées et que le problème du temps d'attente prévisible n'avait pas beaucoup d'importance pratique, nous avons décidé d'explorer l'ensemble de données sous un angle légèrement différent. Nous avons constaté que notre analyse précédente pouvait être mise à profit pour essayer de résoudre un autre problème difficile, celui de la prédiction des pourboires.
+                    <br><br>
+                    Prévision du montant du pourboire
+                    Nous voulions prédire le montant du pourboire qu'un conducteur est susceptible de recevoir. 
+                    Comme nous avons constaté que les données étaient faussées pour les temps d'attente, nous voulions confirmer que ce n'était pas le cas pour les montants des pourboires. Nous avons constaté que 50 % des données ne donnaient aucun pourboire. Nous étions donc en sécurité. Notre approche générique consistait à visualiser les données pour mieux les comprendre. Cela nous donnerait des informations sur les valeurs aberrantes et incorrectes (valeurs absurdes) qui doivent être supprimées. Outre le nettoyage des données, l'autre aspect important des visualisations est la corrélation que nous pouvons établir entre les différents attributs et le montant du pourboire. 
+                    </p>
+                     <h4 style="color:white;">ALGORITHMS UTILISES</h4>
+                    <p class="text-faded" style="font-size: small; text-align:left;">
+                    Afin d'analyser les données et d'en tirer des enseignements, nous avons suivi un processus qui a consisté à examiner les données à l'aide des visualisations suivantes :
+                    </p><ul class="text-faded" style="font-size: small; text-align:left;">
+                        <li>
+                        Modèles de Classification
+                            <ul>
+                                <li>Support Vector Machines</li>
+                                <li>Decision Trees</li>
+                                <li>Random Forests</li>
+                                <li>Adaboost</li>
+                            </ul>
+                        </li>
+                        <li>
+                        Modèles de Regression
+                            <ul>
+                                <li>Linear Regression</li>
+                                <li>SVM Regression</li>
+                                <li>Lasso Regression</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p></p>
+                </div>
+                <div class="col-lg-4 text-center" style="padding-top: 100px">
+                <img src="sources/nyce1.png" class="img-responsive" alt="" style="margin :auto;max-width:100%;height:auto;">
+                <p>Visualisations</p>
+                <img src="sources/nyce2.png" class="img-responsive" alt="" style="margin :auto;max-width:100%;height:auto;">
+                <p>Corrélations</p>
+                <img src="sources/nyce3.png" class="img-responsive" alt="" style="margin :auto;max-width:100%;height:auto;">
+                <p>Confusion Matrice</p>
+                </div>
+            </div>
+        </div>
+    </section>
+        </div>
+                
+      </div>
+      
+    </div>
+  </div>
+  
+    <!-- my new tab -->
+
+<!-- Modal2 -->
+  <div class="modal fade" id="myModal2" role="dialog" style="align: center">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content" style="width:800px">
+        <div class="modal-body" style="align:center">
+          <section class="bg-primary" id="about" style="align:center">
+        <div class="container" style="align:center">
+            <div class="row" style="align:center">
+                <div class="col-lg-8 text-center" style="  width: 50%; margin: 0 auto;">
+                    <!-- <hr class="light"> -->
+                   <h2 style="color: #3282b8;"><br>The Greentech challenge</h2><br><img src="sources/projet2-2.png" width="200px"><br>
+                  
+                  <p style="max-width: 600px"><br>Étude sur la pollution de l'eau pour le ministère français de l'environnement.</p>
+                  <br>
+                  <div style="text-align: center">
+                    <h6 style="color:white;">Description</h6>
+                    <hr>
+                    <p>Le GreenTech challenge est un concours Dataviz lancé par le ministère français de l'environnement qui a eu lieu en 2017. Un vaste ensemble de données concernant les pesticides en France a été publié, et le but était de construire des visualisations innovantes pour sensibiliser et informer les citoyens sur la situation française au cours des six dernières années.</p>
+                    <p>Nous avons décidé de former une équipe de 4 amis et avons construit une <code>Application</code> qui permet d'explorer efficacement cet ensemble de données. L'application est composée de plusieurs fiches, chacune ciblant un thème spécifique. Cet outil doit vous permettre de comprendre ce qui se passe dans votre quartier et dans l'ensemble du pays. Il est également étudié pour améliorer vos connaissances générales sur les pesticides.</p>
+                    <center><img src="sources/project2-1.png" width="100%"></center>
+                    <h6 style="color:white;"><br>Plus de détails</h6>
+                    <hr>
+                    <span>Veuillez me contacter          <a href="mailto:abdellahmadane07@gmail.com" style="text-transform: none;">abdellahmadane07@gmail.com</a>
+ pour plus d'informations et le code source du projet.</span>
+                    <br><br><br>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        </div>
+                
+      </div>
+      
+    </div>
+  </div>
+  
+    <!-- my new tab -->
+
+<!-- Modal3 -->
+  <div class="modal fade" id="myModal3" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content" style="width:800px">
+        <div class="modal-body">
+          <section class="bg-primary" id="about">
+<div class="container">
+            <div class="row">
+                <div class="col-lg-8 text-center" style="text-align: left">
+                    <!-- <hr class="light"> -->
+                    <h2>Projet: Data Science</h2><h2>
+                    </h2><h4 style="color:white;">CONCEPT</h4>
+                    <p class="text-faded" style="font-size: small">
+                    Ce projet décrit une nouvelle façon émergente de faire la lumière sur un ensemble complexe de données et de communiquer les résultats à un large public. Nous commençons ce processus par une analyse exploratoire des données, puis nous créons des visualisations interactives et les intégrons dans un rapport à l'aide d'infographies. Nous illustrons les concepts à l'aide de données provenant de 30 saisons du jeu télévisé Jeopardy ! Nos résultats révèlent des modèles intéressants, à la fois qualitatifs et quantitatifs, et expliquent notre utilisation des technologies populaires au cours de chaque phase du processus. Dans ce projet, nous décrivons en détail le processus par lequel nous avons exploré les données et construit les visualisations qui sous-tendent ce travail.</p>
+                    <h4 style="color:white;">DONNEES</h4>
+                    <p class="text-faded" style="font-size: small">
+                    L'ensemble de données initial, trouvé sur Reddit, comprenait des données qualitatives sur plus de 200 000 questions Jeopardy ! Il contenait des données sur le tour auquel la question correspondait, les questions et les réponses elles-mêmes, la valeur monétaire de la question, ainsi que le numéro de l'émission et la date de diffusion.
+                    <br><br>
+                    Dans notre phase exploratoire d'analyse des données, nous avons trouvé plusieurs résultats intéressants. Par exemple, nous avons constaté que le type de réponses le plus fréquent était lié à la géographie. Nous avons également remarqué, en examinant la valeur moyenne des questions sur plusieurs années, qu'il y a eu une forte augmentation entre 2001 et 2002. En 2001, la valeur moyenne des questions était de 496 dollars, et elle est passée à 940 dollars en 2002. En effectuant des recherches supplémentaires, nous avons constaté que les valeurs ont doublé le 26 novembre 2001. Cette constatation a inspiré certaines des décisions que nous avons prises par la suite pour comparer les épisodes dans le temps.
+                    </p>
+                    <h4 style="color:white;">PROCESSUS</h4>
+                    <p class="text-faded" style="font-size: small">
+                    Afin d'analyser les données de Jeopardy et d'en tirer des enseignements, nous avons suivi un processus qui a consisté à examiner les données à l'aide des visualisations suivantes :
+                    </p><ul class="text-faded" style="font-size: small; text-align:left;">
+                        <li>
+                        Infographie des candidats et des sexes et graphique linéaire
+                        </li>
+                        <li>
+                        Analyse exploratoire des données en utilisant Tableau</li>
+                        <li>
+                        Explorer les données sur les paris
+                        </li>
+                        <li>
+                        Visualisation parallèle des coordonnées
+                        </li>
+                        <li>
+                        Graphique de liaison
+                        </li>
+                        <li>
+                        Diagramme de dispersion
+                        </li>
+                        <li>
+                        Graphique bipartite
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-lg-4 text-center" style="padding-top: 100px">
+                <img src="sources/projet3-1.png" class="img-responsive" alt="" style="margin :auto;max-width:100%;height:auto;">
+                <p>Diagramme linéaire montrant la répartition des sexes</p>
+                <img src="sources/projet3-2.png" class="img-responsive" alt="" style="margin :auto;max-width:100%;height:auto;">
+                <p>Visualisation parallèle des coordonnées</p>
+                <img src="sources/projet3-3.png" class="img-responsive" alt="" style="margin :auto;max-width:100%;height:auto;">
+                <p>Heatmap et graphique linéaire de liaison</p>
+                </div>
+            </div>
+        </div>
+    </section>
+        </div>
+                
+      </div>
+      
+    </div>
+  </div>
+  
+    <!-- my new tab -->
+
+    <!-- copyrights -->
+
+    <section class="">
+      <hr>
+      <div class="">
+        <p class="text-primary" style="text-align:center">Réalisé par <b>Abdellah Madane.</b></p>
+      </div>
+    </section>
+  </div>
+
+  <!-- Bootstrap core JS-->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Third party plugin JS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+  <!-- Core theme JS-->
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
